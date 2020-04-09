@@ -1,0 +1,21 @@
+{
+  "name": "test-async-within-async",
+  "version": "1.0.0",
+  "description": "",
+  "main": "asyncFunction.js",
+  "scripts": {
+    "test": "jest",
+    "execute": "ts-node asyncFunction.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jest": "^25.2.1",
+    "rxjs": "^6.5.5"
+  },
+  "devDependencies": {
+    "jest": "^25.3.0",
+    "ts-jest": "^25.3.1",
+    "typescript": "^3.8.3"
+  }
+}
